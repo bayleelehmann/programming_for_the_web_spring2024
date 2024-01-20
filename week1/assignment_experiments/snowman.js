@@ -1,4 +1,5 @@
 let grid = undefined;
 function setup() {
-    createdCanvas(1000, 800)
+    createCanvas(1000, 800);
+    background("#ccc");
 }
