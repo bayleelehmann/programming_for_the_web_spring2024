@@ -1,0 +1,10 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color:rgb(54, 54, 70);
+}
