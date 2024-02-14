@@ -1,0 +1,10 @@
+body {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgb(210, 212, 136);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color:rgb(71, 70, 112);
+}
