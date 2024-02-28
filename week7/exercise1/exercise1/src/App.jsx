@@ -1,10 +1,10 @@
 import Camelid from "./camel/Camelid";
-import imageName from "./image/llama.jpeg";
-import imageName from "./image/alpaca.jpeg";
+
 function App() {
+
   const camelData = [
     {name: "Llama", imageName: "llama.jpeg", desc: "Llama"},
-    {name: "Alpaca", imageName: "alpaca.jpeg", desc: "Alpaca"},
+    {name: "Alpaca", preload: "alpaca.jpeg", desc: "Alpaca"},
     
   ]
   return (
