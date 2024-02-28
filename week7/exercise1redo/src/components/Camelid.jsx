@@ -1,6 +1,6 @@
 function Camelid({name, fact, img}) {
     return (
-    <div className="factCard">
+    <div className="camelid">
         <h1>{name}</h1>
         <p>{fact}</p>
         <div>{img}</div>

@@ -1,4 +1,4 @@
-import ".index.css";
+import "./index.css";
 import "./components/Camel.css";
 import Camelid from "./components/Camelid";
 import imageLlama from "./assets/llama.jpeg";
