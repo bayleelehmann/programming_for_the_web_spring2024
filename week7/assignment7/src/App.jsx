@@ -1,79 +1,85 @@
-// import "./styles.css";  
-// function App() {
-//   const listOther = "no";
-//   const paragraphStyleObj = {
-//     color: "green",
-//     fontSize: "36px",
-//     margin: "15px auto",
-//     width: "600px",
-//   }
-//   return (
-//     <>
-//      <h1 className={listOther === "yes" ? "blue" : "red"}>CSS Demo</h1>
-//      <p style={paragraphStyleObj}>Some random text</p>
-//     </>
-   
-//   )
-// }
 
-// export default App
+import "./App.css";
+import { TabiRow } from "./TabiRow";
+// import Tabi from "./components/Tabi";
+// import imageKneeHighBoots from "./assets/tabikneehighboots.jpeg";
+// import imageBallerinas from "./assets/tabiballerinas.jpeg";
+// import imageMaryJanes from "./assets/tabimaryjanes.jpeg";
+// import imageLoafers from "./assets/tabiloafers.jpeg";
+// import imagePumps from "./assets/tabipumps.jpeg";
+// import imageSandals from "./assets/tabisandals.jpeg";
 
-import "./styles.css";
 function App() {
   const tabiShoes = [
     {name: "Tabi Knee-High Boots", 
-    desc: "Crafted in vintage soft leather, these block-heel knee-high boots feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989. 8cm heel" ,
+    // img: <img src={imageKneeHighBoots} alt="knee high boots" />,
+    image: "/tabikneehighboots.jpeg",
+    desc: ["Crafted in vintage soft leather, these block-heel knee-high boots feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989. 8cm heel"],
     brand: "Maison Margiela", 
     color: "Black"},
 
     {name: "Tabi ballerinas",
-     desc: "The Tabi ballerina shoes are crafted from soft nappa leather with a 3cm cylindrical heel. They feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989.",
+    //  img: <img src={imageBallerinas} alt="ballerinas" />,
+    image: "/tabiballerinas.jpeg",
+     desc: ["The Tabi ballerina shoes are crafted from soft nappa leather with a 3cm cylindrical heel. They feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989."],
      brand: "Maison Margiela", 
      color: "Pale Blue"},
 
      {name: "Tabi Mary-Janes",
-     desc: "In calf leather with an adjustable top strap, the Mary-Jane shoes feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989.", 
+    //  img: <img src={imageMaryJanes} alt="mary janes" />,
+     image: "/tabimaryjanes.jpeg",
+     desc: ["In calf leather with an adjustable top strap, the Mary-Jane shoes feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989."],
      brand: "Maison Margiela", 
      color: "Black"},
 
      {name: "Tabi loafers",
-     desc: "Crafted from brushed calfskin, the chunky cleated sole loafers feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989.", 
+    //  img: <img src={imageLoafers} alt="loafers" />,
+     image: "/tabiloafers.jpeg",
+     desc: ["Crafted from brushed calfskin, the chunky cleated sole loafers feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989."],
      brand: "Maison Margiela", 
      color: "Fir"},
 
      {name: "Tabi pumps",
-     desc: "In soft nappa leather with an adjustable ankle strap, the 8cm cylindrical heel pumps feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989.", 
+    //  img: <img src={imagePumps} alt="pumps" />,
+     image: "/tabipumps.jpeg",
+     desc: ["In soft nappa leather with an adjustable ankle strap, the 8cm cylindrical heel pumps feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989."],
      brand: "Maison Margiela", 
      color: "Dark Brown"},
      
      {name: "Tabi sandals",
-     desc: "With a double adjustable strap design, crafted in calf leather, the sandals feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989.", 
+    //  img: <img src={imageSandals} alt="sandals" />,
+     image: "/tabisandals.jpeg",
+     desc: ["With a double adjustable strap design, crafted in calf leather, the sandals feature the Tabi split-toe, inspired by the traditional 15th century Japanese sock bearing the same name – launched for the Maison's debut collection in 1989."],
      brand: "Maison Margiela", 
      color: "Black"},
     
   ];
 
   return (
-    <div>
-      <h1>Maison Margiela Tabi Shoes I wish I owned</h1>
-      { 
-      tabiShoes.map((tabi) => {
-        return(
-          <div key={tabi.name}>
-            <h3>{tabi.name}</h3>
-            <ul>
-              {/* {tabi.desc.map((desc) => {
-                return (
-                  <li key={desc} />)
-              })} */}
-             
-            </ul>
-
-            </div>
-        )
-      })}
-    </div>
+    <>
+      <h1>My Tabi Wish list</h1>
+      <p>Show Shoes here</p>
+      <table className="tabi-table">
+        <thead>
+        
+        </thead>
+        <tbody>
+         {tabiShoes.map((tabiShoes, index) => {
+          return (
+          <TabiRow 
+          key={tabiShoes.image}
+          odd={index % 2 === 0}
+          name={tabiShoes.name} 
+          image={tabiShoes.image}
+          desc={tabiShoes.image}
+          brand={tabiShoes.brand}
+          color={tabiShoes.color}
+          />
+          )
+         })}
+        </tbody>
+      </table>
+    </>
   )
 }
-
-export default App
+export default App;

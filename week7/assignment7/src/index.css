@@ -1,5 +1,5 @@
 
-body {
+/* body {
   margin: 0 auto;
   display: flex;
   min-width: 320px;
@@ -13,7 +13,7 @@ ul {
 li {
   width: 25px;
   height: 25px;
-}
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

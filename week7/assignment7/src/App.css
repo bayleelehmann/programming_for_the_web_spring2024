@@ -1,0 +1,28 @@
+.tabi-table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.tabi-table thead {
+    border: 1px solid black;
+}
+
+.tabi-table tr  {
+    border: 1px solid black;
+}
+
+.tabi-table td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tabi-table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tabi-table img {
+    width: 200px;
+    padding: 8px;
+}
