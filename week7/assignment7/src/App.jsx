@@ -58,10 +58,16 @@ function App() {
   return (
     <>
       <h1>My Tabi Wish list</h1>
-      <p>Show Shoes here</p>
+      <p>The most comfortable shoes, expensive but worth the investment</p>
       <table className="tabi-table">
         <thead>
-        
+            <tr>
+              <th>Shoe Name</th>
+              <th>Shoe Image</th>
+              <th>Shoe Description</th>
+              <th>Brand</th>
+              <th>Color</th>
+            </tr>
         </thead>
         <tbody>
          {tabiShoes.map((tabiShoes, index) => {
@@ -71,7 +77,7 @@ function App() {
           odd={index % 2 === 0}
           name={tabiShoes.name} 
           image={tabiShoes.image}
-          desc={tabiShoes.image}
+          desc={tabiShoes.desc}
           brand={tabiShoes.brand}
           color={tabiShoes.color}
           />

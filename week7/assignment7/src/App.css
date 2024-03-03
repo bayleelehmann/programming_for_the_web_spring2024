@@ -1,24 +1,35 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(227, 225, 224);
+    color:rgb(31, 31, 40);
+}
+
+h1, p {
+    text-align: center;
+}
+
 .tabi-table {
     width: 100%;
-    border: 1px solid black;
+    border: 3px solid rgb(31, 31, 40);;
     border-collapse: collapse;
+    
 
 }
 .tabi-table thead {
-    border: 1px solid black;
+    border: 3px solid rgb(31, 31, 40);;
 }
 
 .tabi-table tr  {
-    border: 1px solid black;
+    border: 3px solid rgb(31, 31, 40);;
 }
 
 .tabi-table td {
-    border: 1px solid black;
+    border: 3px solid rgb(31, 31, 40);;
     text-align: center;
 }
 
 .tabi-table th {
-    border: 1px solid black;
+    border: 3px solid black;
     text-align: center;
 }
 
@@ -26,3 +37,8 @@
     width: 200px;
     padding: 8px;
 }
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
