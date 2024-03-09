@@ -17,7 +17,7 @@ export default function ItemCard({
 }) {
     return (
         <div className="tabiCard">
-            {<div className="label"> <img src={label} title="brand label" /> {brand}</div>}
+        <div className="label"> <img src={label} title="brand label" /> {brand}</div>
            <div className="cardImg">
            <img src={image} alt={name} />
         </div>
