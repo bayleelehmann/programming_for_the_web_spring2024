@@ -6,7 +6,7 @@ export default function TabiShoes() {
             <div className="tabiimg">
             <img src={tabiImg} alt="Baylee's Tabi Shoe Decks"/>
             </div>
-            <h1>Baylee&apos;s Tabi Deck</h1>
+            <h1>Baylee&apos;s Tabi Shoe Deck</h1>
         </div>
     )
 }
