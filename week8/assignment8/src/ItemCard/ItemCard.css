@@ -2,8 +2,8 @@
     width: 100%;
     max-width: 250px;
     padding: 10px;
-    height: 375px;
-    border: 1px solid black;
+    height: 400px;
+    border: 3px solid black;
     text-align: center;
     margin: 10px;
     border-radius: 10px;
@@ -14,13 +14,15 @@
 }
 
 .cardImg img {
-    max-width: 200px;
+    max-width: 185px;
     width: 100%;
+    border: 1px solid black;
 }
 
 .cardTitle {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .label {
@@ -48,30 +50,32 @@
     text-align: center;
     border-radius: 5px;
     padding-top: 3px;
-    background: lightgray;
+    background-color: rgb(227, 225, 224);
 }
 .actions a:hover {
-    background: rgb(4, 0, 255);
+    background: rgb(165, 164, 190);
 }
-.stripe {
+/* .stripe {
     height: 5px;
     width: 100%;
-}
+} */
 
-.black {
+.color .black {
     background-color: black;
 }
 
-.pale-blue {
+.color .pale-blue {
     background-color: aliceblue;
 }
 
-.fir {
+.color .fir {
     background-color: rgb(25, 35, 25);
 }
 
-.dark-brown {
+.color .dark-brown {
     background-color: rgb(106, 62, 32);
 }
 
-
+/* .labelLogo {
+    width: 25px;
+} */
