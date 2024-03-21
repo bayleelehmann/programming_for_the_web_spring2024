@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* form related */
+fieldset {
+  margin-bottom: 1em;
+}
+input[type=checkbox] {
+  margin-right: 20px;
+  margin-left: 5px;
+}
