@@ -147,7 +147,7 @@ export function NewTabiForm({addCardFn}) {
                     <input 
                     type="text" 
                     name="image" 
-                    id="image" 
+                    id="image"  
                     onChange={changeHandler}
                     value={newCard.image}
                     onBlur={() => {
