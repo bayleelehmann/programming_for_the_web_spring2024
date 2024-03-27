@@ -10,6 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
-    "eslint-plugin-p5js": "^1.0.0"
+    "eslint-plugin-p5js": "^1.0.0",
+    "prop-types": "^15.8.1"
+  },
+  "dependencies": {
+    "proptypes": "^1.1.0"
   }
 }
