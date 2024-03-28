@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Tabi Knee-High Boots",
+        "image": "./tabikneehighboots.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Black",
+        "id": "1"
+    },
+    {
+        "name": "Tabi ballerinas",
+        "image": "./tabiballerinas.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Pale Blue",
+        "id": "2"
+    },
+    {
+        "name": "Tabi Mary-Janes",
+        "image": "./tabimaryjanes.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Black",
+        "id": "3"
+    },
+    {
+        "name": "Tabi loafers",
+        "image": "./tabiloafers.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Fir",
+        "id": "4"
+    },
+    {
+        "name": "Tabi pumps",
+        "image": "./tabipumps.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Dark Brown",
+        "id": "5"
+    },
+    {
+        "name": "Tabi sandals",
+        "image": "./tabisandals.jpeg",
+        "brand": "Maison Margiela",
+        "color": "Black",
+        "id": "6"
+    }
+]
