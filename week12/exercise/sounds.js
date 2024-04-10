@@ -1,24 +1,27 @@
 //var song; 
 var button;
 //var amp;
-let sound, amplitude;
+let sound, amplitude, p5;
 
 function setup() {
     createCanvas (600, 600);
     cnv.mouseClicked(togglePlay);
-    //song = loadSound("bubbles_1.mp3", loaded);
+    //song = loadSound("bubbles_1.mp3", loaded); wrong
     amplitude = new p5.Amplitude();
     background(133, 168, 189);
 }
 function preload() {
     sound= loadSound('bubbles_1.mp3');
+    //console.log("loaded");
+    button = createButton("play");
 }
 
 function loaded() {
     console.log("loaded");
     button = createButton("play");
-    //button.mousePressed(togglePlaying);
+//     //button.mousePressed(togglePlaying);
 }
+
 
 function draw () {
     background(255);
