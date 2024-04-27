@@ -2,13 +2,13 @@
     max-width: 728px;
     width: 100%;
     text-align: center;
-    margin: auto 0;
+    margin: 0 auto;
    
 }
 
 .portfolioitems img {
     width: 75%;
-    margin: auto 0;
+    margin: 0 auto;
 }
 
 .lineBoilImg {

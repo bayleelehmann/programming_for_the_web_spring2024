@@ -1,4 +1,5 @@
 .collection {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,5 +11,6 @@
 }
 
 body {
+  margin: 0 auto;
   align-items: center;
 }
