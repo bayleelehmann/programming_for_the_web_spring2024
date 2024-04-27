@@ -1,0 +1,47 @@
+[
+    {
+        "image":"./Baylee_Self Portrait1.jpg",
+        "desc": ["Self Portrait"],
+        "id": "1"
+    },
+    {
+        "image":"./DropCap_A.jpg",
+        "desc": ["Drop Cap"],
+        "id": "2"
+    },
+    {
+        "image":"./FlowerIllustration.jpg",
+        "desc": ["Flower Illustration"],
+        "id": "3"
+    },
+    {
+        "image":"./FriendlySpider_web.png",
+        "desc": ["Friendly Spider"],
+        "id": "4"
+    },
+    {
+        "image":"./Smoking shroom smaller.gif",
+        "desc": ["Smoking Shroom"],
+        "id": "5"
+    },
+    {
+        "image":"./HierarchyPoser_1.jpg",
+        "desc": ["Hierarchy Poser"],
+        "id": "6"
+    }
+    {
+        "image":"./Masthead_1.jpg",
+        "desc": ["archive Masthead"],
+        "id": "7"
+    }
+    {
+        "image":"./Masthead_2.jpg",
+        "desc": ["archive Masthead"],
+        "id": "8"
+    }
+    {
+        "image":"./TypographicGridFormsPoster.jpg",
+        "desc": ["Grid Poster"],
+        "id": "9"
+    }
+]

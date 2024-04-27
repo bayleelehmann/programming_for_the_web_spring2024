@@ -1,0 +1,15 @@
+.collection {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  align-items: center;
+}

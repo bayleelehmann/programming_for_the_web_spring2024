@@ -1,0 +1,13 @@
+.deck-detail {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.deck-detail img {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid black;
+}

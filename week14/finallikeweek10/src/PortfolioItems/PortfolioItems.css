@@ -1,0 +1,24 @@
+.portfolioitems {
+    max-width: 728px;
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+   
+}
+
+.portfolioitems img {
+    width: 75%;
+    margin: auto 0;
+}
+
+.lineBoilImg {
+    background-color: rgb(254, 254, 254);
+    width: 75%;
+    margin: auto 0;
+}
+
+body {
+    font-family: "Dm sans", sans-serif;
+    background-color: rgb(254, 254, 254);
+    color:rgb(31, 31, 40);
+}
