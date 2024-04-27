@@ -2,90 +2,90 @@ import { useState } from 'react'
 import "./App.css";
 import PortfolioItems from "./PortfolioItems/PortfolioItems";
 import PortfolioCard from './PortfolioCard/PortfolioCard';
-import { nanoid } from "nanoid";
+//import { nanoid } from "nanoid";
 //import { PortfolioRow } from "./PortfolioRow";
 
 function App() {
   const [decks, setDecks] = useState([
     {
-      name: "Self Portrait",
+      //name: "Self Portrait",
       image:"./Baylee_Self Portrait1.jpg",
-      desc: ["Self Portrait using Procreate"],
+      desc: ["Self Portrait"],
       id: "1"
     },
 
     {
-      name: "Drop Cap",
+      //name: "Drop Cap",
       image:"./DropCap_A.jpg",
-      desc: ["Drop Cap Letter A"],
+      desc: ["Drop Cap"],
       id: "2"
     },
 
     {
       name: "Flower Illustration",
       image:"./FlowerIllustration.jpg",
-      desc: ["Flower Illustration using Procreate"],
+      desc: ["Flower Illustration"],
       id: "3"
     },
 
     {
-      name: "Friendly Spider",
+      //name: "Friendly Spider",
       image:"./FriendlySpider_web.png",
-      desc: ["Animation in Procreate"],
+      desc: ["Friendly Spider"],
       id: "4"
     },
 
     {
-      name: "Smoking Shroom",
+      //name: "Smoking Shroom",
       image:"./Smoking shroom smaller.gif",
-      desc: ["Animation using Procreate"],
+      desc: ["Smoking Shroom"],
       id: "5"
     },
 
     {
-      name: "Hierarchy Poster",
+      //name: "Hierarchy Poster",
       image:"./HierarchyPoser_1.jpg",
       desc: ["Hierarchy Poser"],
       id: "6"
     },
 
     {
-      name: "archive Masthead",
+      //name: "archive Masthead",
       image:"./Masthead_1.jpg",
-      desc: ["Masthead Assignment"],
+      desc: ["archive Masthead"],
       id: "7"
     },
 
     {
-      name: "archive Masthead",
+      //name: "archive Masthead",
       image:"./Masthead_2.jpg",
-      desc: ["Masthead Assignment"],
+      desc: ["archive Masthead"],
       id: "8"
     },
 
     {
-      name: "Grid Poster",
+      //name: "Grid Poster",
       image:"./TypographicGridFormsPoster.jpg",
-      desc: ["Typographic GridForms Poster"],
+      desc: ["Grid Poster"],
       id: "9"  
     },
   ]);
 
-  function deleteCard(id) {
-    console.log("delete me", id);
-    const updatedArray = decks.filter((portfolioDeck) => {
-      return portfolioDeck.id !== id; // will skip item with matching id
-    })
-    setDecks(updatedArray)
-  }
-  function duplicateCard(id) {
-    console.log("duplicate me", id)
-    const matchingDeck = decks.find((portfolioDeck) => {
-      return portfolioDeck.id === id
-    });
-    const updatedDeck = {...matchingDeck, id: nanoid()}
-    setDecks([...decks, updatedDeck]);
-  }
+  // function deleteCard(id) {
+  //   console.log("delete me", id);
+  //   const updatedArray = decks.filter((portfolioDeck) => {
+  //     return portfolioDeck.id !== id; // will skip item with matching id
+  //   })
+  //   setDecks(updatedArray)
+  // }
+  // function duplicateCard(id) {
+  //   console.log("duplicate me", id)
+  //   const matchingDeck = decks.find((portfolioDeck) => {
+  //     return portfolioDeck.id === id
+  //   });
+  //   const updatedDeck = {...matchingDeck, id: nanoid()}
+  //   setDecks([...decks, updatedDeck]);
+  // }
 
   return (
     <div className="page">
@@ -98,8 +98,8 @@ function App() {
         return (
           <PortfolioCard key=
           {portfolioDeck.id} 
-          deleteFn={deleteCard}
-          duplicateFn={duplicateCard}
+          // deleteFn={deleteCard}
+          // duplicateFn={duplicateCard}
           {...portfolioDeck}/>
         )
       })}
