@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import PortfolioItems from "../PortfolioItems/PortfolioItems";
 import PortfolioCard from "../PortfolioCard/PortfolioCard";
-//import { Link } from "react-router-dom";
-//import { NewTabiForm } from '../NewTabiForm/NewTabiForm';
 import {nanoid} from "nanoid";
 import deckData from "../assets/deck-data.json"
 
@@ -11,14 +9,14 @@ export function Home() {
   
   
   function deleteCard(id) {
-    console.log("delete me", id);
+  
     const updatedArray = decks.filter((portfolioDeck) => {
       return portfolioDeck.id !== id; // will skip item with matching id
     })
     setDecks(updatedArray)
   }
   function duplicateCard(id) {
-    console.log("duplicate me", id)
+
     const matchingDeck = decks.find((portfolioDeck) => {
       return portfolioDeck.id === id
     });
@@ -26,13 +24,6 @@ export function Home() {
     setDecks([...decks, updatedDeck]);
   }
   
-  // function addCard(newCard) {
-  //   const cardWidthId = {
-  //     ...newCard,
-  //     id: nanoid()
-  //   }
-  //   setDecks([...decks,cardWidthId])
-  //  }
    return(
     <div className="page">
       {/*images goes here*/}
@@ -51,8 +42,7 @@ export function Home() {
         })}
       </div>
       <hr />
-      {/* <NewTabiForm addCardFn={addCard} /> */}
+     
     </div>
    );
 }
-//export default Home

@@ -6,9 +6,9 @@
         "id": "1"
     },
     {
-        "image":"./DropCap_A.jpg",
-        "name": "Drop Cap",
-        "desc": ["Remembering my Sister"],
+        "image":"./FriendlySpider_web.png",
+        "name": "Friendly Spider",
+        "desc": ["Made in Procreate"],
         "id": "2"
     },
     {
@@ -18,21 +18,21 @@
         "id": "3"
     },
     {
-        "image":"./FriendlySpider_web.png",
-        "name": "Friendly Spider",
-        "desc": ["Made in Procreate"],
-        "id": "4"
+        "image":"./DropCap_A.jpg",
+        "name": "Drop Cap",
+        "desc": ["Remembering my Sister"],
+        "id": "4"     
     },
     {
-        "image":"./Smoking shroom smaller.gif",
+        "image":"./Smoking shroom.gif",
         "name": "Smoking Shroom",
         "desc": ["Made in Procreate"],
         "id": "5"
     },
     {
-        "image":"./HierarchyPoser_1.jpg",
-        "name": "Hierarchy Poser",
-        "desc": ["Film Poster"],
+        "image":"./TypographicGridFormsPoster.jpg",
+        "name": "Grid Poster",
+        "desc": ["Playing with Fonts"],
         "id": "6"
     },
     {
@@ -48,9 +48,11 @@
         "id": "8"
     },
     {
-        "image":"./TypographicGridFormsPoster.jpg",
-        "name": "Grid Poster",
-        "desc": ["Playing with Fonts"],
+        "image":"./HierarchyPoster_1.jpg",
+        "name": "Hierarchy Poster",
+        "desc": ["Film Poster"],
         "id": "9"
     }
+    
+    
 ]

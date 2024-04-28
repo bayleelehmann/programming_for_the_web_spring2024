@@ -2,20 +2,18 @@
     max-width: 728px;
     width: 100%;
     text-align: center;
-    margin: 0 auto;
-   
+    justify-self: center;
+    margin: 50px auto 20px;
+
 }
 
 .portfolioitems img {
-    width: 75%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 50px auto 20px;
+    justify-self: center;
 }
 
-.lineBoilImg {
-    background-color: rgb(254, 254, 254);
-    width: 75%;
-    margin: auto 0;
-}
+
 
 body {
     font-family: "Dm sans", sans-serif;

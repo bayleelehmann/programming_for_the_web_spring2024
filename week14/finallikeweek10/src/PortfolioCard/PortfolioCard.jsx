@@ -2,15 +2,12 @@ import PropTypes from "prop-types";
 import "./PortfolioCard.css";
 import { Link } from "react-router-dom";
 //import clsx from "clsx";
-// import trash from "../assets/trash_icon.jpg";
-// import copy from "../assets/copy_icon.jpg";
 export default function PortfolioCard({
     name, 
     image, 
     desc, 
     id,
-    // deleteFn,
-    // duplicateFn
+
 }) {
     return (
         <div className="portfolioCard">
@@ -19,7 +16,7 @@ export default function PortfolioCard({
          </div>
            <div className="cardImg">
            <img src={image} alt={desc} />
-           <div className="cardTitle">{desc}</div>
+           <div className="carddesc">{desc}</div>
         </div>
         </div>
     )
