@@ -1,0 +1,26 @@
+.portfolioitems {
+    max-width: 728px;
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+    margin: 50px auto 20px;
+
+}
+
+.portfolioitems img {
+    width: 100%;
+    margin: 50px auto 20px;
+    justify-self: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body {
+    font-family: "Dm sans", sans-serif;
+    background-color: rgb(254, 254, 254);
+    color:rgb(31, 31, 40);
+}

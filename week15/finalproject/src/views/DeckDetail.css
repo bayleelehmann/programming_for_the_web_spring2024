@@ -1,0 +1,15 @@
+.deck-detail {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-family: "Source Serif 4", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7c151d;
+}
+
+.deck-detail img {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid black;
+}

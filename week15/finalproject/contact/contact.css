@@ -1,0 +1,39 @@
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 728px;
+    justify-self: center;
+    margin: 50px auto 20px;
+}
+
+body {
+    font-family: "Dm sans", sans-serif;
+    background-color: rgb(254, 254, 254);
+    color:rgb(31, 31, 40);
+    justify-content: center;
+    max-width: 728px;
+    margin: 50px auto 20px;
+}
+
+body img {
+    width: 25%;
+    margin: 50px auto 20px;
+    justify-self: center;
+}
+
+a {
+    font-weight: 500;
+    color: #7c151d;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #1a97d6;
+  }
+  
+  .form {
+    max-width: 728px;
+    justify-self: center;
+    margin: 50px auto 20px;
+  }
