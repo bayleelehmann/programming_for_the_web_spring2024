@@ -2,55 +2,55 @@
     {
         "image":"./Baylee_Self Portrait1.jpg",
         "name": "Self Portrait",
-        "desc": ["Made in Procreate"],
+        "desc": "Made in Procreate",
         "id": "1"
     },
     {
         "image":"./FriendlySpider_web.png",
         "name": "Friendly Spider",
-        "desc": ["Made in Procreate"],
+        "desc": "Made in Procreate",
         "id": "2"
     },
     {
         "image":"./FlowerIllustration.jpg",
         "name": "Flower Illustration",
-        "desc": ["Made in Procreate"],
+        "desc": "Made in Procreate",
         "id": "3"
     },
     {
         "image":"./DropCap_A.jpg",
         "name": "Drop Cap",
-        "desc": ["Remembering my Sister"],
+        "desc": "Remembering my Sister",
         "id": "4"     
     },
     {
         "image":"./Smoking shroom.gif",
         "name": "Smoking Shroom",
-        "desc": ["Made in Procreate"],
+        "desc": "Made in Procreate",
         "id": "5"
     },
     {
         "image":"./TypographicGridFormsPoster.jpg",
         "name": "Grid Poster",
-        "desc": ["Playing with Fonts"],
+        "desc": "Playing with Fonts",
         "id": "6"
     },
     {
         "image":"./Masthead_1.jpg",
         "name": "archive",
-        "desc": ["archive Spring Couture 2024"],
+        "desc": "archive Spring Couture 2024",
         "id": "7"
     },
     {
         "image":"./Masthead_2.jpg",
         "name": "archive",
-        "desc": ["archive Pre Fall 2024"],
+        "desc": "archive Pre Fall 2024",
         "id": "8"
     },
     {
         "image":"./HierarchyPoster_1.jpg",
         "name": "Hierarchy Poster",
-        "desc": ["Film Poster"],
+        "desc": "Film Poster",
         "id": "9"
     }
     
