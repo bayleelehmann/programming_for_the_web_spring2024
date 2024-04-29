@@ -13,7 +13,11 @@
     justify-self: center;
 }
 
-
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
 body {
     font-family: "Dm sans", sans-serif;
